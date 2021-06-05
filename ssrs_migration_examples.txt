@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s https://usta-dev-mssql-01.cdldq5d1nfuh.us-east-1.rds.amazonaws.com:8443/reportserver -u usta-digital\imaleev -p QWE12asd! -v ts="https://usta-stage-mssql-01.cdldq5d1nfuh.us-east-1.rds.amazonaws.com:8443/reportserver" -v tu="usta-digital\imaleev" -v tp="QWE12asd!" 
+
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s http://vpcdb.usta.com/ReportServer_SQL2K8GENERAL -u ustennis\ilya.maleev -p Welcome2020 -v ts="https://usta-prod-mssql-01.cdldq5d1nfuh.us-east-1.rds.amazonaws.com:8443/reportserver" -v tu="usta-digital\imaleev" -v tp="QWE12asd!" 
+
+
+dev
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s http://172.17.43.122/reportserver -u ustennis\ilya.maleev -p Welcome2020 -v ts="https://usopen-dev-mssql-01.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver" -v tu="ustennis\ilya.maleev" -v tp="Welcome2020" 
+
+stage
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s http://172.17.23.48/reportserver -u ustennis\ilya.maleev -p Welcome2020 -v ts="https://usopen-stage-mssql-01.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver" -v tu="ustennis\ilya.maleev" -v tp="Welcome2020" 
+
+prod
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s http://172.17.13.210/reportserver -u usta-aws\imaleev -p US0p3n.2o19 -v ts="https://usopen-prod-mssql-01.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver" -v tu="ustennis\ilya.maleev" -v tp="Welcome2020" 
+
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s http://172.17.13.133/reportserver -u usta-aws\imaleev -p US0p3n.2o19 -v ts="https://usopen-prod-mssql-01.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver" -v tu="ustennis\ilya.maleev" -v tp="Welcome2020" 
+
+"C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\rs.exe" -i ssrs_migration.rss -e Mgmt2010 -s https://usopen-prod-mssql-01.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver -u ustennis\ilya.maleev -p Welcome2020! -v ts="https://usopen-prod-mssql-02.cg3bfbfpu02r.us-east-1.rds.amazonaws.com:8444/reportserver" -v tu="ustennis\ilya.maleev" -v tp="Welcome2020!" 
